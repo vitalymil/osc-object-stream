@@ -1,15 +1,75 @@
 [
     [
         {
-            "id": "5210722601",
             "xml": "<node id=\"5210722601\" visible=\"true\" version=\"2\" changeset=\"59670983\" timestamp=\"2018-06-08T14:45:20Z\" user=\"SafwatHalaby\" uid=\"2138064\" lat=\"31.7681710\" lon=\"34.6847120\" ><tag k=\"addr:street\" v=\"הראשונים\" ></tag><tag k=\"bus\" v=\"yes\" ></tag><tag k=\"highway\" v=\"bus_stop\" ></tag><tag k=\"name\" v=\"הראשונים/3703\" ></tag><tag k=\"name:ar\" v=\"هريشونيم/3703\" ></tag><tag k=\"name:en\" v=\"HaRishonim/3703\" ></tag><tag k=\"name:he\" v=\"הראשונים/3703\" ></tag><tag k=\"public_transport\" v=\"platform\" ></tag><tag k=\"ref\" v=\"19837\" ></tag><tag k=\"source\" v=\"israel_gtfs\" ></tag></node>",
             "type": "node",
+            "attributes": {
+                "id": "5210722601",
+                "visible": "true",
+                "version": "2",
+                "changeset": "59670983",
+                "timestamp": "2018-06-08T14:45:20Z",
+                "user": "SafwatHalaby",
+                "uid": "2138064",
+                "lat": "31.7681710",
+                "lon": "34.6847120"
+            },
+            "tags": [
+                {
+                    "k": "addr:street",
+                    "v": "הראשונים"
+                },
+                {
+                    "k": "bus",
+                    "v": "yes"
+                },
+                {
+                    "k": "highway",
+                    "v": "bus_stop"
+                },
+                {
+                    "k": "name",
+                    "v": "הראשונים/3703"
+                },
+                {
+                    "k": "name:ar",
+                    "v": "هريشونيم/3703"
+                },
+                {
+                    "k": "name:en",
+                    "v": "HaRishonim/3703"
+                },
+                {
+                    "k": "name:he",
+                    "v": "הראשונים/3703"
+                },
+                {
+                    "k": "public_transport",
+                    "v": "platform"
+                },
+                {
+                    "k": "ref",
+                    "v": "19837"
+                },
+                {
+                    "k": "source",
+                    "v": "israel_gtfs"
+                }
+            ],
             "action": "create"
         },
         {
-            "id": "345756",
             "xml": "<relation id=\"345756\" visible=\"true\" version=\"5\" changeset=\"44145101\" timestamp=\"2016-12-03T20:07:11Z\" user=\"nyuriks\" uid=\"339581\" ><member type=\"way\" ref=\"45345603\" role=\"outer\" ></member><member type=\"way\" ref=\"45367445\" role=\"outer\" ></member><member type=\"way\" ref=\"45372522\" role=\"outer\" ></member><member type=\"way\" ref=\"45372523\" role=\"outer\" ></member><member type=\"way\" ref=\"45372532\" role=\"outer\" ></member><member type=\"way\" ref=\"45334566\" role=\"outer\" ></member><member type=\"node\" ref=\"1446993975\" role=\"admin_centre\" ></member><tag k=\"admin_level\" v=\"8\" ></tag><tag k=\"boundary\" v=\"administrative\" ></tag><tag k=\"idee:name\" v=\"Grisel\" ></tag><tag k=\"ine:municipio\" v=\"50122\" ></tag><tag k=\"is_in\" v=\"Zaragoza, Aragón, Spain\" ></tag><tag k=\"is_in:country\" v=\"Spain\" ></tag><tag k=\"is_in:province\" v=\"Zaragoza\" ></tag><tag k=\"is_in:region\" v=\"Aragón\" ></tag><tag k=\"name\" v=\"Grisel\" ></tag><tag k=\"population\" v=\"79\" ></tag><tag k=\"population:date\" v=\"2009\" ></tag><tag k=\"source\" v=\"BDLL25, EGRN, Instituto Geográfico Nacional\" ></tag><tag k=\"type\" v=\"boundary\" ></tag><tag k=\"wikidata\" v=\"Q537345\" ></tag><tag k=\"wikipedia\" v=\"es:Grisel\" ></tag></relation>",
             "type": "relation",
+            "attributes": {
+                "id": "345756",
+                "visible": "true",
+                "version": "5",
+                "changeset": "44145101",
+                "timestamp": "2016-12-03T20:07:11Z",
+                "user": "nyuriks",
+                "uid": "339581"
+            },
             "members": [
                 {
                     "type": "way",
@@ -47,20 +107,100 @@
                     "role": "admin_centre"
                 }
             ],
+            "tags": [
+                {
+                    "k": "admin_level",
+                    "v": "8"
+                },
+                {
+                    "k": "boundary",
+                    "v": "administrative"
+                },
+                {
+                    "k": "idee:name",
+                    "v": "Grisel"
+                },
+                {
+                    "k": "ine:municipio",
+                    "v": "50122"
+                },
+                {
+                    "k": "is_in",
+                    "v": "Zaragoza, Aragón, Spain"
+                },
+                {
+                    "k": "is_in:country",
+                    "v": "Spain"
+                },
+                {
+                    "k": "is_in:province",
+                    "v": "Zaragoza"
+                },
+                {
+                    "k": "is_in:region",
+                    "v": "Aragón"
+                },
+                {
+                    "k": "name",
+                    "v": "Grisel"
+                },
+                {
+                    "k": "population",
+                    "v": "79"
+                },
+                {
+                    "k": "population:date",
+                    "v": "2009"
+                },
+                {
+                    "k": "source",
+                    "v": "BDLL25, EGRN, Instituto Geográfico Nacional"
+                },
+                {
+                    "k": "type",
+                    "v": "boundary"
+                },
+                {
+                    "k": "wikidata",
+                    "v": "Q537345"
+                },
+                {
+                    "k": "wikipedia",
+                    "v": "es:Grisel"
+                }
+            ],
             "action": "create"
         }
     ],
     [
         {
-            "id": "576445028",
             "xml": "<node id=\"576445028\" visible=\"true\" version=\"1\" changeset=\"3258727\" timestamp=\"2009-11-30T19:41:53Z\" user=\"balrog-kun\" uid=\"20587\" lat=\"41.8464861\" lon=\"-1.7270982\" ></node>",
             "type": "node",
+            "attributes": {
+                "id": "576445028",
+                "visible": "true",
+                "version": "1",
+                "changeset": "3258727",
+                "timestamp": "2009-11-30T19:41:53Z",
+                "user": "balrog-kun",
+                "uid": "20587",
+                "lat": "41.8464861",
+                "lon": "-1.7270982"
+            },
             "action": "delete"
         },
         {
-            "id": "46046348",
             "xml": "<way id=\"46046348\" visible=\"true\" version=\"4\" changeset=\"45324866\" timestamp=\"2017-01-20T11:49:28Z\" user=\"Sanniu\" uid=\"1206509\" ><nd ref=\"587111632\" ></nd><nd ref=\"587114118\" ></nd><nd ref=\"1069091240\" ></nd><nd ref=\"587114121\" ></nd><nd ref=\"1069091247\" ></nd><nd ref=\"1069091251\" ></nd><nd ref=\"4620546782\" ></nd><tag k=\"highway\" v=\"residential\" ></tag></way>",
             "type": "way",
+            "attributes": {
+                "id": "46046348",
+                "visible": "true",
+                "version": "4",
+                "changeset": "45324866",
+                "timestamp": "2017-01-20T11:49:28Z",
+                "user": "Sanniu",
+                "uid": "1206509"
+            },
             "nds": [
                 "587111632",
                 "587114118",
@@ -70,14 +210,30 @@
                 "1069091251",
                 "4620546782"
             ],
+            "tags": [
+                {
+                    "k": "highway",
+                    "v": "residential"
+                }
+            ],
             "action": "modify"
         }
     ],
     [
         {
-            "id": "587111632",
             "xml": "<node id=\"587111632\" visible=\"true\" version=\"3\" changeset=\"29067881\" timestamp=\"2015-02-24T14:15:38Z\" user=\"sivan00\" uid=\"2045570\" lat=\"31.7575898\" lon=\"34.6769055\" ></node>",
             "type": "node",
+            "attributes": {
+                "id": "587111632",
+                "visible": "true",
+                "version": "3",
+                "changeset": "29067881",
+                "timestamp": "2015-02-24T14:15:38Z",
+                "user": "sivan00",
+                "uid": "2045570",
+                "lat": "31.7575898",
+                "lon": "34.6769055"
+            },
             "action": "modify"
         }
     ]
