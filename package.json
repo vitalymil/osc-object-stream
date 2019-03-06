@@ -1,0 +1,19 @@
+{
+  "name": "osc-object-stream",
+  "version": "1.0.0",
+  "description": "Stream for parsing and returning OSM objects from an OSC data stream",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha ./test/index.js"
+  },
+  "author": "vitaly mil",
+  "license": "ISC",
+  "dependencies": {
+    "sax": "^1.2.4",
+    "xml-escape": "^1.1.0"
+  },
+  "devDependencies": {
+    "deep-equal": "^1.0.1",
+    "mocha": "^6.0.2"
+  }
+}

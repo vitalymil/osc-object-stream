@@ -1,0 +1,56 @@
+<osmChange>
+    <create>
+        <node id="5210722601" visible="true" version="2" changeset="59670983" timestamp="2018-06-08T14:45:20Z" user="SafwatHalaby" uid="2138064" lat="31.7681710" lon="34.6847120">
+            <tag k="addr:street" v="הראשונים"/>
+            <tag k="bus" v="yes"/>
+            <tag k="highway" v="bus_stop"/>
+            <tag k="name" v="הראשונים/3703"/>
+            <tag k="name:ar" v="هريشونيم/3703"/>
+            <tag k="name:en" v="HaRishonim/3703"/>
+            <tag k="name:he" v="הראשונים/3703"/>
+            <tag k="public_transport" v="platform"/>
+            <tag k="ref" v="19837"/>
+            <tag k="source" v="israel_gtfs"/>
+        </node>
+        <relation id="345756" visible="true" version="5" changeset="44145101" timestamp="2016-12-03T20:07:11Z" user="nyuriks" uid="339581">
+            <member type="way" ref="45345603" role="outer"/>
+            <member type="way" ref="45367445" role="outer"/>
+            <member type="way" ref="45372522" role="outer"/>
+            <member type="way" ref="45372523" role="outer"/>
+            <member type="way" ref="45372532" role="outer"/>
+            <member type="way" ref="45334566" role="outer"/>
+            <member type="node" ref="1446993975" role="admin_centre"/>
+            <tag k="admin_level" v="8"/>
+            <tag k="boundary" v="administrative"/>
+            <tag k="idee:name" v="Grisel"/>
+            <tag k="ine:municipio" v="50122"/>
+            <tag k="is_in" v="Zaragoza, Aragón, Spain"/>
+            <tag k="is_in:country" v="Spain"/>
+            <tag k="is_in:province" v="Zaragoza"/>
+            <tag k="is_in:region" v="Aragón"/>
+            <tag k="name" v="Grisel"/>
+            <tag k="population" v="79"/>
+            <tag k="population:date" v="2009"/>
+            <tag k="source" v="BDLL25, EGRN, Instituto Geográfico Nacional"/>
+            <tag k="type" v="boundary"/>
+            <tag k="wikidata" v="Q537345"/>
+            <tag k="wikipedia" v="es:Grisel"/>
+        </relation>
+    </create>
+    <delete>
+        <node id="576445028" visible="true" version="1" changeset="3258727" timestamp="2009-11-30T19:41:53Z" user="balrog-kun" uid="20587" lat="41.8464861" lon="-1.7270982"/>
+    </delete>
+    <modify>
+        <way id="46046348" visible="true" version="4" changeset="45324866" timestamp="2017-01-20T11:49:28Z" user="Sanniu" uid="1206509">
+            <nd ref="587111632"/>
+            <nd ref="587114118"/>
+            <nd ref="1069091240"/>
+            <nd ref="587114121"/>
+            <nd ref="1069091247"/>
+            <nd ref="1069091251"/>
+            <nd ref="4620546782"/>
+            <tag k="highway" v="residential"/>
+        </way>
+        <node id="587111632" visible="true" version="3" changeset="29067881" timestamp="2015-02-24T14:15:38Z" user="sivan00" uid="2045570" lat="31.7575898" lon="34.6769055"/>
+    </modify>
+</osmChange>
