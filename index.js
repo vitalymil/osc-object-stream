@@ -5,9 +5,14 @@ const xmlHandlers = require('./handlers');
 
 const DEFAULT_BULK_SIZE = 1000;
 
-class OscObjectStream extends Transform {
+class OsmObjectStream extends Transform {
     constructor(options) {
-        super({ objectMode: true });
+        super({ 
+            objectMode: true,
+            highWaterMark: options.highWaterMark,
+            readableHighWaterMark: options.readableHighWaterMark,
+            writableHighWaterMark: options.writableHighWaterMark
+        });
 
         this._curEntity = {};
         this._curState = {};
@@ -74,4 +79,4 @@ class OscObjectStream extends Transform {
     }
 }
 
-module.exports = OscObjectStream;
+module.exports = OsmObjectStream;

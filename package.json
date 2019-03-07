@@ -1,6 +1,6 @@
 {
   "name": "osm-object-stream",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Stream for parsing and returning OSM objects from an OSC or OSM data stream",
   "main": "index.js",
   "scripts": {
