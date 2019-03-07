@@ -16,7 +16,7 @@ describe('full xml test cases', () => {
 
             xmlInputStream.pipe(osmObjectStream);
 
-            for await (const bulk of oscObjectStream) {
+            for await (const bulk of osmObjectStream) {
                 resultArray.push(bulk);
             }
 
