@@ -12,7 +12,7 @@
     "type": "git",
     "url": "https://github.com/vitalymil/osm-object-stream.git"
   },
-  "keywords": ["osm", "openstreetmap", "osc", "osm", "stream", "parser"],
+  "keywords": ["osm", "openstreetmap", "osc", "stream", "parser"],
   "dependencies": {
     "sax": "^1.2.4",
     "xml-escape": "^1.1.0"
