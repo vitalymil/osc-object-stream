@@ -1,7 +1,7 @@
 {
-  "name": "osc-object-stream",
+  "name": "osm-object-stream",
   "version": "1.0.0",
-  "description": "Stream for parsing and returning OSM objects from an OSC data stream",
+  "description": "Stream for parsing and returning OSM objects from an OSC or OSM data stream",
   "main": "index.js",
   "scripts": {
     "test": "mocha ./test/index.js"
@@ -10,9 +10,9 @@
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "https://github.com/vitalymil/osc-object-stream.git"
+    "url": "https://github.com/vitalymil/osm-object-stream.git"
   },
-  "keywords": ["osm", "openstreetmap", "osc", "stream", "parser"],
+  "keywords": ["osm", "openstreetmap", "osc", "osm", "stream", "parser"],
   "dependencies": {
     "sax": "^1.2.4",
     "xml-escape": "^1.1.0"
