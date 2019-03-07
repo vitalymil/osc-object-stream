@@ -6,4 +6,5 @@ module.exports = [
     require('./xml.js'),
     require('./tags.js'),
     require('./type.js'),
+    require('./filetype.js'),
 ]

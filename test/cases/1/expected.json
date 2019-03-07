@@ -14,6 +14,7 @@
                 "lat": "31.7681710",
                 "lon": "34.6847120"
             },
+            "filetype": "osc",
             "tags": [
                 {
                     "k": "addr:street",
@@ -107,6 +108,7 @@
                     "role": "admin_centre"
                 }
             ],
+            "filetype": "osc",
             "tags": [
                 {
                     "k": "admin_level",
@@ -176,6 +178,7 @@
         {
             "xml": "<node id=\"576445028\" visible=\"true\" version=\"1\" changeset=\"3258727\" timestamp=\"2009-11-30T19:41:53Z\" user=\"balrog-kun\" uid=\"20587\" lat=\"41.8464861\" lon=\"-1.7270982\" ></node>",
             "type": "node",
+            "filetype": "osc",
             "attributes": {
                 "id": "576445028",
                 "visible": "true",
@@ -192,6 +195,7 @@
         {
             "xml": "<way id=\"46046348\" visible=\"true\" version=\"4\" changeset=\"45324866\" timestamp=\"2017-01-20T11:49:28Z\" user=\"Sanniu\" uid=\"1206509\" ><nd ref=\"587111632\" ></nd><nd ref=\"587114118\" ></nd><nd ref=\"1069091240\" ></nd><nd ref=\"587114121\" ></nd><nd ref=\"1069091247\" ></nd><nd ref=\"1069091251\" ></nd><nd ref=\"4620546782\" ></nd><tag k=\"highway\" v=\"residential\" ></tag></way>",
             "type": "way",
+            "filetype": "osc",
             "attributes": {
                 "id": "46046348",
                 "visible": "true",
@@ -223,6 +227,7 @@
         {
             "xml": "<node id=\"587111632\" visible=\"true\" version=\"3\" changeset=\"29067881\" timestamp=\"2015-02-24T14:15:38Z\" user=\"sivan00\" uid=\"2045570\" lat=\"31.7575898\" lon=\"34.6769055\" ></node>",
             "type": "node",
+            "filetype": "osc",
             "attributes": {
                 "id": "587111632",
                 "visible": "true",
