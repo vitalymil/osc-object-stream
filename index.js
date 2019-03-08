@@ -6,7 +6,7 @@ const xmlHandlers = require('./handlers');
 const DEFAULT_BULK_SIZE = 1000;
 
 class OsmObjectStream extends Transform {
-    constructor(options) {
+    constructor(options = {}) {
         super({ 
             objectMode: true,
             highWaterMark: options.highWaterMark,
