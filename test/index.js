@@ -16,8 +16,8 @@ describe('full xml test cases', () => {
 
             xmlInputStream.pipe(osmObjectStream);
 
-            for await (const bulk of osmObjectStream) {
-                resultArray.push(bulk);
+            for await (const entity of osmObjectStream) {
+                resultArray.push(entity);
             }
 
             assert.deepStrictEqual(resultArray, expectedArray);

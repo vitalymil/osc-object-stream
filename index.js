@@ -22,9 +22,6 @@ class OsmObjectStream extends Transform {
             this._xmlHanlders = [...this._xmlHanlders, ...options.handlers];
         }
 
-        this._curBulk = [];
-        this._bulkSize = options.bulkSize || DEFAULT_BULK_SIZE;
-
         this._xmlParser = sax.parser(true);
 
         this._xmlParser.onopentag = (xmlNode) => {
@@ -54,12 +51,7 @@ class OsmObjectStream extends Transform {
     }
 
     _pushEntity() {
-        this._curBulk.push({ ...this._curEntity, ...this._curState });
-
-        if (this._curBulk.length >= this._bulkSize) {
-            this.push(this._curBulk);
-            this._curBulk = [];
-        }
+        this.push({ ...this._curEntity, ...this._curState });
     }
 
     _transform(data, encoding, callback) {
@@ -69,13 +61,7 @@ class OsmObjectStream extends Transform {
 
     _flush(callback) {
         this._xmlParser.close();
-
-        if (this._curBulk.length > 0) {
-            callback(null, this._curBulk);
-        }
-        else {
-            callback();
-        }
+        callback();
     }
 }
 
