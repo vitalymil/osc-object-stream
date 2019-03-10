@@ -55,13 +55,23 @@ class OsmObjectStream extends Transform {
     }
 
     _transform(data, encoding, callback) {
-        this._xmlParser.write(data);
-        callback();
+        try {
+            this._xmlParser.write(data);
+            callback();
+        }
+        catch (error) {
+            callback(error);
+        }
     }
 
     _flush(callback) {
-        this._xmlParser.close();
-        callback();
+        try {
+            this._xmlParser.close();
+            callback();
+        }
+        catch (error) {
+            callback(error);
+        }
     }
 }
 
